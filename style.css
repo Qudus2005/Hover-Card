@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    /* animation-name: anime;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    background-size: cover; */
+    
+}
+h1{
+    font-size: 30px;
+    color: white;
+}
+h1 span{
+    color: gold;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    border: 2px solid white;
+    width: 295px;
+    height: 295px;
+    /* margin-top: 70px; */
+   background-color: black ;
+}
+.box1:hover{
+    transition: 2s all ease-in-out;
+    box-shadow:
+    20px 20px 20px  gray,
+    -20px -20px 20px  white;
+    /* background-image: linear-gradient(to left,black,gray); */
+}
+.box2{
+    border: 2px solid white;
+    width: 295px;
+    height: 295px;
+    /* margin-top: 75px; */
+    background-color: black;
+}
+.box2:hover{
+    /* background-image: linear-gradient(to left, black,gray); */
+    transition: 2s all ease-in-out;
+    box-shadow:
+    20px 20px 20px  gray,
+    -20px -20px 20px  white;
+  }
+.box3{
+    border: 2px solid white;
+    width: 295px;
+    height: 295px;
+    /* margin-top: 75px; */
+    background-color: black;
+}
+.box3:hover{
+    /* background-image: linear-gradient(to left, black,gray); */
+    transition: 2s all ease-in-out;
+    box-shadow:
+    20px 20px 20px  gray,
+    -20px -20px 20px  white;
+  }
+.insidebox{
+    border: 2px solid white;
+    width: 290px;
+    height: 290px;
+    /* margin-top: 200px; */
+    background-color: white;
+    z-index: -1;
+    position: absolute;
+    background-image: url(./Images/android-logo-12379.png);
+    background-size: cover;
+    transition: all ease-in-out 3s;
+}
+
+.box1:hover .insidebox{
+    transform: translateY(285px);
+  
+}
+.insidebox1{
+    border: 2px solid white;
+    width: 290px;
+    height: 290px;
+    /* margin-top: 200px; */
+    background-color: white;
+    z-index: -1;
+    position: absolute;
+    background-image: linear-gradient(to left, black,gray);
+    background-size: cover;
+    transition: all ease-in-out 3s;
+}
+.box2:hover .insidebox1{
+    transform: translateY(285px);
+
+}
+.insidebox2{
+    border: 2px solid white;
+    width: 290px;
+    height: 280px;
+    /* margin-top: 200px; */
+    background-color: white;
+    z-index: -1;
+    position: absolute;
+    background-image:url(./Images/logo-windows-13475.png);
+    background-size: cover;
+    transition: all ease-in-out 3s;
+}
+.box3:hover .insidebox2{
+    transform: translateY(285px);
+}
+strong{
+    color:  white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+p{
+    color: black;
+    font-size: 15px;
+
+}
+button{
+    border:  2px solid white;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+   background-color: black;
+   color: white;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+}
+footer{
+    background-color: coral;
+    height: 50%;
+    width: 100%;
+    margin-top: 300px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+h2 span{
+    color: gold;
+}
+p{
+    font-size: 20px;
+}
+.container2 h3{
+    font-size: 30px;
+    color: white;
+}
+.container2 li{
+    list-style-type: none;
+    
+}
+.container2 li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.container2 li a:hover{
+    text-decoration: underline;
+    color: gold;
+}
+.container3 h4{
+    font-size: 30px;
+color: white;
+}
+
+@media  screen and  (min-width:1024px) and (max-width:1201px){
+
+    body{
+        background-color: black;
+        /* animation-name: anime;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        background-size: cover; */
+        
+    }
+    h1{
+        font-size: 30px;
+        color: white;
+    }
+    h1 span{
+        color: gold;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box1{
+        border: 2px solid white;
+        width: 295px;
+        height: 295px;
+        /* margin-top: 70px; */
+       background-color: black ;
+    }
+    .box1:hover{
+        transition: 2s all ease-in-out;
+        box-shadow:
+        20px 20px 20px  gray,
+        -20px -20px 20px  white;
+        /* background-image: linear-gradient(to left,black,gray); */
+    }
+    .box2{
+        border: 2px solid white;
+        width: 295px;
+        height: 295px;
+        /* margin-top: 75px; */
+        background-color: black;
+    }
+    .box2:hover{
+        /* background-image: linear-gradient(to left, black,gray); */
+        transition: 2s all ease-in-out;
+        box-shadow:
+        20px 20px 20px  gray,
+        -20px -20px 20px  white;
+      }
+    .box3{
+        border: 2px solid white;
+        width: 295px;
+        height: 295px;
+        /* margin-top: 75px; */
+        background-color: black;
+    }
+    .box3:hover{
+        /* background-image: linear-gradient(to left, black,gray); */
+        transition: 2s all ease-in-out;
+        box-shadow:
+        20px 20px 20px  gray,
+        -20px -20px 20px  white;
+      }
+    .insidebox{
+        border: 2px solid white;
+        width: 290px;
+        height: 290px;
+        /* margin-top: 200px; */
+        background-color: white;
+        z-index: -1;
+        position: absolute;
+        background-image: url(./Images/android-logo-12379.png);
+        background-size: cover;
+        transition: all ease-in-out 3s;
+    }
+    
+    .box1:hover .insidebox{
+        transform: translateY(285px);
+      
+    }
+    .insidebox1{
+        border: 2px solid white;
+        width: 290px;
+        height: 290px;
+        /* margin-top: 200px; */
+        background-color: white;
+        z-index: -1;
+        position: absolute;
+        background-image: linear-gradient(to left, black,gray);
+        background-size: cover;
+        transition: all ease-in-out 3s;
+    }
+    .box2:hover .insidebox1{
+        transform: translateY(285px);
+    
+    }
+    .insidebox2{
+        border: 2px solid white;
+        width: 290px;
+        height: 280px;
+        /* margin-top: 200px; */
+        background-color: white;
+        z-index: -1;
+        position: absolute;
+        background-image:url(./Images/logo-windows-13475.png);
+        background-size: cover;
+        transition: all ease-in-out 3s;
+    }
+    .box3:hover .insidebox2{
+        transform: translateY(285px);
+    }
+    strong{
+        color:  white;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    p{
+        color: black;
+        font-size: 15px;
+    
+    }
+    button{
+        border:  2px solid white;
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+       background-color: black;
+       color: white;
+    }
+    .footer-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+    footer{
+        background-color: coral;
+        height: 50%;
+        width: 100%;
+        margin-top: 300px;
+    }
+    h2{
+        color: white;
+        font-size: 30px;
+    }
+    h2 span{
+        color: gold;
+    }
+    p{
+        font-size: 20px;
+    }
+    .container2 h3{
+        font-size: 30px;
+        color: white;
+    }
+    .container2 li{
+        list-style-type: none;
+        
+    }
+    .container2 li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+    .container2 li a:hover{
+        text-decoration: underline;
+        color: gold;
+    }
+    .container3 h4{
+        font-size: 30px;
+    color: white;
+    }
+
+
+}
+
+@media  screen and  (min-width:240px) and (max-width:1023px) {
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     .box1{
+        margin-bottom: 290px;
+    }
+    .box2{
+        margin-bottom: 290px;
+    }
+    .box3{
+        margin-bottom: 100px;
+     } 
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    footer{
+        background-color: coral;
+        height: 50%;
+        width: 100%;
+    }
+
+}
